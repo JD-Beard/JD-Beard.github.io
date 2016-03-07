@@ -9,8 +9,7 @@ public class BallMoving : MonoBehaviour {
 	public AudioClip[] audioClip;
 
 
-	//public float sparkLight = 0.0f;
-	//public float sparkLight1 = 0.0f;
+	
 
 
 
