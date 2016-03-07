@@ -5,7 +5,7 @@ public class ChangeScene : MonoBehaviour {
 
 	public void ChangeToScene (string sceneToChangeTo){
 
-		Application.LoadLevel (sceneToChangeTo);
+		Application.LoadLevel (sceneToChangeTo);                    //Change scene using string.
 
 
 
@@ -14,7 +14,7 @@ public class ChangeScene : MonoBehaviour {
 
 }
 
-	public void ChangeToExit (int sceneToExitTo){
+	public void ChangeToExit (int sceneToExitTo){                              //Change scene using Int
 
 		Application.Quit ();
 		Debug.Log("exit");
